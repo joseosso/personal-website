@@ -15,9 +15,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className={cn("bg-dark text-gray-300", font.className)}>
-        <main className="lg:pl-[12vw] px-8 lg:px-0 container mx-auto py-5 lg:py-8">
-          {children}
-        </main>
+        <main className="lg:pl-[14vw] px-8 lg:px-0">{children}</main>
       </body>
     </html>
   );
