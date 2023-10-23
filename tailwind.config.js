@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#ECB365",
+        primary: "#fca311",
         // dark: "#041C32",
         // primary: "#00ADB5",
         dark: "#121212",
@@ -16,4 +16,7 @@ module.exports = {
     },
   },
   plugins: [],
+  variants: {
+    textColor: ["responsive", "hover", "focus", "group-hover"],
+  },
 };
